@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interativo de Precisão: América do Sul e Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-title">América do Sul: Navegação Interativa 🌎</h1>
+        <p id="main-subtitle">Clique em um país para explorar seus territórios históricos!</p>
+    </header>
+
+    <main>
+        <div id="map-wrapper">
+            
+            <div id="view-south-america" class="map-view">
+                <img src="https://thumbs.dreamstime.com/b/matiz-verde-do-mapa-da-am%C3%A9rica-sul-colorido-em-fundo-escuro-pol%C3%ADtico-detalhado-continente-americano-com-capital-pa%C3%ADs-oceano-e-181815259.jpg" alt="Mapa da América do Sul" class="map-img">
+                <svg viewBox="0 0 1000 1333" class="map-overlay">
+                    <circle id="COUNTRY-BR" class="country-region" cx="650" cy="350" r="100" data-name="Brasil" />
+                    <circle id="COUNTRY-AR" class="region" cx="400" cy="750" r="80" data-name="Argentina" />
+                    <circle id="COUNTRY-CL" class="region" cx="290" cy="800" r="40" data-name="Chile" />
+                    <circle id="COUNTRY-PE" class="region" cx="270" cy="330" r="50" data-name="Peru" />
+                    <circle id="COUNTRY-CO" class="region" cx="280" cy="150" r="50" data-name="Colômbia" />
+                    <circle id="COUNTRY-VE" class="region" cx="420" cy="110" r="50" data-name="Venezuela" />
+                    <circle id="COUNTRY-BO" class="region" cx="430" cy="430" r="50" data-name="Bolívia" />
+                    <circle id="COUNTRY-PY" class="region" cx="520" cy="520" r="40" data-name="Paraguai" />
+                    <circle id="COUNTRY-UY" class="region" cx="610" cy="700" r="30" data-name="Uruguai" />
+                    <circle id="COUNTRY-EC" class="region" cx="200" cy="230" r="30" data-name="Equador" />
+                    <circle id="COUNTRY-GY" class="region" cx="520" cy="140" r="25" data-name="Guiana" />
+                    <circle id="COUNTRY-SR" class="region" cx="570" cy="150" r="25" data-name="Suriname" />
+                    <circle id="COUNTRY-GF" class="region" cx="610" cy="150" r="25" data-name="Guiana Francesa" />
+                </svg>
+            </div>
+
+            <div id="view-brazil" class="map-view hidden">
+                <button class="back-btn" onclick="zoomOut()">⬅ Voltar para América do Sul</button>
+                <img src="https://www.infoescola.com/wp-content/uploads/2019/07/mapa-do-brasil-estados-branco-comlegenda.jpg" alt="Mapa do Brasil" class="map-img">
+                <svg viewBox="0 0 800 800" class="map-overlay">
+                    <circle id="BR-AC" class="region" cx="100" cy="360" r="22" data-name="Acre" />
+                    <circle id="BR-AM" class="region" cx="230" cy="250" r="45" data-name="Amazonas" />
+                    <circle id="BR-RR" class="region" cx="260" cy="120" r="25" data-name="Roraima" />
+                    <circle id="BR-PA" class="region" cx="410" cy="240" r="45" data-name="Pará" />
+                    <circle id="BR-AP" class="region" cx="430" cy="130" r="20" data-name="Amapá" />
+                    <circle id="BR-TO" class="region" cx="480" cy="380" r="25" data-name="Tocantins" />
+                    <circle id="BR-RO" class="region" cx="220" cy="380" r="25" data-name="Rondônia" />
+                    <circle id="BR-MA" class="region" cx="530" cy="260" r="25" data-name="Maranhão" />
+                    <circle id="BR-PI" class="region" cx="580" cy="290" r="22" data-name="Piauí" />
+                    <circle id="BR-CE" class="region" cx="640" cy="250" r="20" data-name="Ceará" />
+                    <circle id="BR-RN" class="region" cx="690" cy="260" r="15" data-name="Rio Grande do Norte" />
+                    <circle id="BR-PB" class="region" cx="700" cy="285" r="15" data-name="Paraíba" />
+                    <circle id="BR-PE" class="region" cx="690" cy="310" r="18" data-name="Pernambuco" />
+                    <circle id="BR-AL" class="region" cx="695" cy="335" r="12" data-name="Alagoas" />
+                    <circle id="BR-SE" class="region" cx="685" cy="355" r="12" data-name="Sergipe" />
+                    <circle id="BR-BA" class="region" cx="590" cy="390" r="38" data-name="Bahia" />
+                    <circle id="BR-MT" class="region" cx="360" cy="430" r="35" data-name="Mato Grosso" />
+                    <circle id="BR-GO" class="region" cx="460" cy="480" r="25" data-name="Goiás" />
+                    <circle id="BR-DF" class="region" cx="485" cy="475" r="10" data-name="Distrito Federal" />
+                    <circle id="BR-MS" class="region" cx="370" cy="560" r="25" data-name="Mato Grosso do Sul" />
+                    <circle id="BR-MG" class="region" cx="540" cy="510" r="33" data-name="Minas Gerais" />
+                    <circle id="BR-ES" class="region" cx="615" cy="525" r="14" data-name="Espírito Santo" />
+                    <circle id="BR-RJ" class="region" cx="595" cy="565" r="15" data-name="Rio de Janeiro" />
+                    <circle id="BR-SP" class="region" cx="490" cy="580" r="28" data-name="São Paulo" />
+                    <circle id="BR-PR" class="region" cx="440" cy="640" r="22" data-name="Paraná" />
+                    <circle id="BR-SC" class="region" cx="455" cy="675" r="18" data-name="Santa Catarina" />
+                    <circle id="BR-RS" class="region" cx="420" cy="730" r="28" data-name="Rio Grande do Sul" />
+                </svg>
+            </div>
+
+            <div id="view-generic-country" class="map-view hidden">
+                <button class="back-btn" onclick="zoomOut()">⬅ Voltar para América do Sul</button>
+                <div class="placeholder-map">
+                    <span id="generic-country-flag">🏳️</span>
+                    <h3 id="generic-country-name">Mapa Regional</h3>
+                    <p>Modo de Exploração Ativo. Selecione uma zona territorial abaixo:</p>
+                    <svg viewBox="0 0 400 400" class="map-overlay-generic">
+                        <circle id="GENERIC-PROV1" class="region" cx="140" cy="200" r="45" data-name="Território Setentrional" />
+                        <circle id="GENERIC-PROV2" class="region" cx="260" cy="200" r="50" data-name="Território Meridional" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="mascot-area">
+            <h2 id="state-title">Selecione um Alvo</h2>
+            <div id="speech-bubble" class="hidden">
+                <p id="info-text">Selecione um local no mapa!</p>
+            </div>
+            <div id="mascot" class="hidden">🌎</div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="timeline-container">
+            <div id="year-label">Ano Escolhido: <span id="year-display">2026</span></div>
+            <input type="range" id="year-slider" min="1800" max="2026" value="2026">
+            <div class="timeline-ticks">
+                <span>1800</span><span>1850</span><span>1900</span><span>1950</span><span>2000</span><span>2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0f172a;
+    margin: 0; padding: 0;
+    display: flex; flex-direction: column; align-items: center;
+    min-height: 100vh; color: #f1f5f9;
+}
+
+header { text-align: center; margin-top: 15px; }
+header h1 { margin: 0; color: #38bdf8; }
+header p { margin: 5px 0 0 0; color: #94a3b8; }
+
+main {
+    display: flex; gap: 30px; align-items: center; justify-content: center;
+    width: 95%; max-width: 1200px; margin-top: 15px;
+}
+
+/* ESTRUTURA DE ADAPTAÇÃO DO MAPA */
+#map-wrapper {
+    position: relative; width: 45%; max-width: 480px;
+    background: #1e293b; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-radius: 16px; overflow: hidden; min-height: 620px;
+    border: 1px solid #334155;
+}
+
+.map-view {
+    width: 100%; height: 100%; position: relative;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+.map-img { width: 100%; height: auto; display: block; }
+.map-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Camadas interativas sobre o mapa */
+.region {
+    fill: rgba(56, 189, 248, 0.05); stroke: #0284c7; stroke-width: 1.5;
+    cursor: pointer; transition: all 0.2s ease;
+}
+.region:hover {
+    fill: rgba(245, 158, 11, 0.4); stroke: #f59e0b; stroke-width: 2.5;
+}
+
+/* Área especial de Zoom do Brasil */
+.country-region {
+    fill: rgba(16, 185, 129, 0.05); stroke: #10b981; stroke-width: 1.5;
+    cursor: pointer; transition: all 0.2s ease;
+}
+.country-region:hover {
+    fill: rgba(16, 185, 129, 0.35); stroke: #34d399; stroke-width: 2.5;
+}
+
+/* BOTÃO DE RETORNO DO ZOOM */
+.back-btn {
+    position: absolute; top: 15px; left: 15px; z-index: 10;
+    background: #38bdf8; color: #0f172a; border: none;
+    padding: 10px 14px; border-radius: 8px; font-weight: bold;
+    cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: background 0.2s, transform 0.1s;
+}
+.back-btn:hover { background: #7dd3fc; transform: scale(1.03); }
+
+/* Tela de simulação dos outros países */
+.placeholder-map {
+    padding: 80px 20px; text-align: center; background: #1e293b; height: 100%; box-sizing: border-box;
+}
+#generic-country-flag { font-size: 70px; display: block; margin-bottom: 10px; }
+.map-overlay-generic { width: 100%; height: 200px; margin-top: 25px; }
+
+/* PAINEL LATERAL INFORMATIVO */
+#mascot-area { width: 45%; display: flex; flex-direction: column; align-items: center; min-height: 380px; }
+#state-title { margin: 0 0 15px 0; color: #f8fafc; }
+
+#speech-bubble {
+    background: #1e293b; border: 3px solid #38bdf8; border-radius: 20px;
+    padding: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    position: relative; margin-bottom: 25px; width: 100%;
+    box-sizing: border-box; font-size: 15px; font-weight: 500; line-height: 1.6; color: #f1f5f9;
+}
+#speech-bubble::after {
+    content: ''; position: absolute; bottom: -21px; left: 50%; margin-left: -12px;
+    border-width: 12px; border-style: solid; border-color: #1e293b transparent transparent transparent; z-index: 2;
+}
+#speech-bubble::before {
+    content: ''; position: absolute; bottom: -27px; left: 50%; margin-left: -13px;
+    border-width: 12px; border-style: solid; border-color: #38bdf8 transparent transparent transparent; z-index: 1;
+}
+
+#mascot {
+    font-size: 90px; cursor: pointer; user-select: none;
+    transition: transform 0.1s ease; animation: bounce 2.5s infinite ease-in-out;
+}
+#mascot:active { transform: scale(0.85); }
+.hidden { display: none !important; }
+
+/* CONTAINER DA LINHA DO TEMPO */
+footer {
+    margin: 30px 0; width: 85%; max-width: 900px;
+    background: #1e293b; padding: 15px 25px; border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); border: 1px solid #334155;
+}
+#timeline-container { display: flex; flex-direction: column; gap: 8px; }
+#year-label { font-size: 16px; font-weight: bold; color: #38bdf8; text-align: center; }
+#year-slider { width: 100%; height: 6px; cursor: pointer; accent-color: #38bdf8; }
+.timeline-ticks { display: flex; justify-content: space-between; font-size: 12px; color: #64748b; }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-15px); }
+    60% { transform: translateY(-8px); }
+}
