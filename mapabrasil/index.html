@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mapa Interativo do Brasil</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <h1 id="main-title">Brasil: Navegação Interativa 🇧🇷</h1>
+    <p id="main-subtitle">Clique em um estado para explorar sua história!</p>
+
+    <div class="settings-container" role="region" aria-label="Configurações">
+        <button id="settings-btn" class="settings-btn" aria-haspopup="true" aria-expanded="false">⚙️</button>
+        <div id="settings-menu" class="settings-menu hidden" role="menu" aria-hidden="true">
+            <div class="settings-header">
+                <h3>Configurações</h3>
+                <button id="close-settings" class="close-btn" aria-label="Fechar">✕</button>
+            </div>
+
+            <div class="settings-option">
+                <span class="theme-label">Tema:</span>
+                <div class="theme-buttons" role="radiogroup" aria-label="Escolha de tema">
+                    <button id="theme-dark-btn" class="theme-option-btn active" data-theme="dark" role="radio" aria-checked="true">🌙 Escuro</button>
+                    <button id="theme-light-btn" class="theme-option-btn" data-theme="light" role="radio" aria-checked="false">☀️ Claro</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="settings-option">
+                <label for="mute-toggle">
+                    <span class="mute-label">Silenciar Áudio</span>
+                    <div class="toggle-container">
+                        <button id="mute-toggle" class="mute-btn" aria-pressed="false" title="Silenciar/Ativar áudio">
+                            <span id="mute-status" class="status-dot green" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div id="map-wrapper">
+        <div id="view-brazil" class="map-view">
+            <img src="https://www.infoescola.com/wp-content/uploads/2019/07/mapa-do-brasil-estados-branco-comlegenda.jpg" alt="Mapa do Brasil" class="map-img" />
+            <div class="states-list" aria-label="Lista de estados">
+                <!-- Norte -->
+                <div class="region-group">
+                    <h4>🔴 Região Norte</h4>
+                    <button class="state-btn" data-id="BR-AM" data-name="Amazonas">AM - Amazonas</button>
+                    <button class="state-btn" data-id="BR-RR" data-name="Roraima">RR - Roraima</button>
+                    <button class="state-btn" data-id="BR-AP" data-name="Amapá">AP - Amapá</button>
+                    <button class="state-btn" data-id="BR-PA" data-name="Pará">PA - Pará</button>
+                    <button class="state-btn" data-id="BR-AC" data-name="Acre">AC - Acre</button>
+                    <button class="state-btn" data-id="BR-RO" data-name="Rondônia">RO - Rondônia</button>
+                    <button class="state-btn" data-id="BR-TO" data-name="Tocantins">TO - Tocantins</button>
+                </div>
+
+                <!-- Nordeste -->
+                <div class="region-group">
+                    <h4>🟠 Região Nordeste</h4>
+                    <button class="state-btn" data-id="BR-MA" data-name="Maranhão">MA - Maranhão</button>
+                    <button class="state-btn" data-id="BR-PI" data-name="Piauí">PI - Piauí</button>
+                    <button class="state-btn" data-id="BR-CE" data-name="Ceará">CE - Ceará</button>
+                    <button class="state-btn" data-id="BR-RN" data-name="Rio Grande do Norte">RN - Rio Grande do Norte</button>
+                    <button class="state-btn" data-id="BR-PB" data-name="Paraíba">PB - Paraíba</button>
+                    <button class="state-btn" data-id="BR-PE" data-name="Pernambuco">PE - Pernambuco</button>
+                    <button class="state-btn" data-id="BR-AL" data-name="Alagoas">AL - Alagoas</button>
+                    <button class="state-btn" data-id="BR-SE" data-name="Sergipe">SE - Sergipe</button>
+                    <button class="state-btn" data-id="BR-BA" data-name="Bahia">BA - Bahia</button>
+                </div>
+
+                <!-- Centro-Oeste -->
+                <div class="region-group">
+                    <h4>🟡 Região Centro-Oeste</h4>
+                    <button class="state-btn" data-id="BR-MT" data-name="Mato Grosso">MT - Mato Grosso</button>
+                    <button class="state-btn" data-id="BR-MS" data-name="Mato Grosso do Sul">MS - Mato Grosso do Sul</button>
+                    <button class="state-btn" data-id="BR-GO" data-name="Goiás">GO - Goiás</button>
+                    <button class="state-btn" data-id="BR-DF" data-name="Distrito Federal">DF - Distrito Federal</button>
+                </div>
+
+                <!-- Sudeste -->
+                <div class="region-group">
+                    <h4>🟢 Região Sudeste</h4>
+                    <button class="state-btn" data-id="BR-MG" data-name="Minas Gerais">MG - Minas Gerais</button>
+                    <button class="state-btn" data-id="BR-SP" data-name="São Paulo">SP - São Paulo</button>
+                    <button class="state-btn" data-id="BR-RJ" data-name="Rio de Janeiro">RJ - Rio de Janeiro</button>
+                    <button class="state-btn" data-id="BR-ES" data-name="Espírito Santo">ES - Espírito Santo</button>
+                </div>
+
+                <!-- Sul -->
+                <div class="region-group">
+                    <h4>🔵 Região Sul</h4>
+                    <button class="state-btn" data-id="BR-PR" data-name="Paraná">PR - Paraná</button>
+                    <button class="state-btn" data-id="BR-SC" data-name="Santa Catarina">SC - Santa Catarina</button>
+                    <button class="state-btn" data-id="BR-RS" data-name="Rio Grande do Sul">RS - Rio Grande do Sul</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mascot-area" aria-live="polite">
+        <h2 id="state-title">Selecione um Estado</h2>
+        <button id="favorite-btn" class="fav-btn" title="Favoritar estado" aria-pressed="false">♡ Favoritar</button>
+
+        <div id="hero-card" class="hero-card" role="region" aria-label="Cartão inicial">
+            <div class="hero-left">
+                <div class="hero-title">Explore o Brasil</div>
+                <p id="hero-fact" class="hero-desc">Carregando curiosidade do dia...</p>
+                <div class="hero-actions">
+                    <button id="btn-random" class="btn primary">Surpresa</button>
+                    <button id="btn-favorites" class="btn outline">Meus Favoritos</button>
+                    <button id="btn-compare" class="btn outline">Comparar</button>
+                    <button id="btn-quiz" class="btn outline">Quiz</button>
+                    <button id="btn-share" class="btn outline">Gerar Imagem</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-mascot" aria-hidden="true">🌎</div>
+            </div>
+        </div>
+
+        <div id="speech-bubble" class="hidden" role="status" aria-live="polite">
+            <div id="loader" class="hidden loader" aria-hidden="true">
+                <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+            <p id="info-text">Clique em um estado no mapa!</p>
+            <button id="audio-btn" class="audio-btn" onclick="toggleAudio()" aria-label="Ouvir texto">🔊 Ouvir Novamente</button>
+        </div>
+
+        <div id="mascot" class="hidden" aria-hidden="true">🌎</div>
+
+        <div id="carousel-container" class="carousel-container hidden" aria-live="polite">
+            <div class="carousel-tabs" role="tablist" aria-label="Seções">
+                <button class="carousel-tab active" data-tab="curiosidades" role="tab" aria-selected="true">💡 Curiosidades</button>
+                <button class="carousel-tab" data-tab="destaques" role="tab" aria-selected="false">📊 Destaques</button>
+                <button class="carousel-tab" data-tab="personalidades" role="tab" aria-selected="false">👤 Personalidades</button>
+                <button class="carousel-tab" data-tab="economia" role="tab" aria-selected="false">⚡ Economia</button>
+                <button class="carousel-tab" data-tab="turismo" role="tab" aria-selected="false">🗺️ Turismo</button>
+            </div>
+
+            <div class="carousel-content">
+                <div id="curiosidades" class="carousel-item active" role="tabpanel">
+                    <ul id="curiosidades-list"></ul>
+                </div>
+                <div id="destaques" class="carousel-item" role="tabpanel">
+                    <div id="destaques-content"></div>
+                </div>
+                <div id="personalidades" class="carousel-item" role="tabpanel">
+                    <ul id="personalidades-list"></ul>
+                </div>
+                <div id="economia" class="carousel-item" role="tabpanel">
+                    <ul id="economia-list"></ul>
+                </div>
+                <div id="turismo" class="carousel-item" role="tabpanel">
+                    <ul id="turismo-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+  <div id="year-controls" class="year-controls" role="region" aria-label="Controles de ano">
+    <div class="year-row">
+      <label for="year-select">Escolher ano:</label>
+      <select id="year-select" aria-label="Selecionar ano">
+        <option value="2026">2026 (Padrão)</option>
+        <option value="2000">2000</option>
+        <option value="1950">1950</option>
+        <option value="1900">1900</option>
+        <option value="1850">1850</option>
+        <option value="1800">1800</option>
+      </select>
+    </div>
+
+    <div class="year-row">
+      <label for="year-input">Ou digite o ano:</label>
+      <input type="number" id="year-input" min="1000" max="3000" value="2026" aria-label="Digitar ano" />
+      <button id="apply-year-btn">Aplicar</button>
+    </div>
+
+    <div id="current-year-display">Ano escolhido: <span id="year-display">2026</span></div>
+  </div>
+</footer>
+
+<!-- MODAIS -->
+<div id="compare-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="compare-title">
+  <div class="modal-content">
+    <h3 id="compare-title">Comparar Estados</h3>
+    <p id="compare-instructions">Clique em "Iniciar Comparação" e então selecione dois estados na lista.</p>
+    <div class="modal-actions">
+      <button id="start-compare" class="btn primary">Iniciar Comparação</button>
+      <button id="close-compare" class="btn outline">Fechar</button>
+    </div>
+    <div id="compare-result" class="compare-result hidden">
+      <div id="compare-left" class="compare-column"></div>
+      <div id="compare-right" class="compare-column"></div>
+      <div class="modal-actions" style="margin-top:12px;">
+        <button id="reset-compare" class="btn outline">Resetar Seleção</button>
+        <button id="close-compare-2" class="btn primary">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="quiz-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="quiz-title">
+  <div class="modal-content">
+    <h3 id="quiz-title">Quiz do Estado</h3>
+    <div id="quiz-body">
+      <p id="quiz-instructions">Escolha um estado (clicando na lista) e depois clique em "Começar Quiz" ou abra o quiz direto com o botão no hero quando um estado estiver selecionado.</p>
+      <div class="modal-actions">
+        <button id="start-quiz-btn" class="btn primary">Começar Quiz</button>
+        <button id="close-quiz" class="btn outline">Fechar</button>
+      </div>
+      <div id="quiz-question-area" class="hidden"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Share canvas modal -->
+<div id="share-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="share-title">
+  <div class="modal-content">
+    <h3 id="share-title">Gerar Imagem</h3>
+    <p>Gera uma imagem com o mascote, o estado, o ano e um fato para download/compartilhar.</p>
+    <div class="modal-actions">
+      <button id="gen-image-btn" class="btn primary">Gerar Imagem</button>
+      <button id="download-image-btn" class="btn outline hidden">Baixar Imagem</button>
+      <button id="close-share" class="btn outline">Fechar</button>
+    </div>
+    <canvas id="share-canvas" width="800" height="450" class="hidden"></canvas>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

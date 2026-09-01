@@ -1,0 +1,1270 @@
+{
+  "BR-AC": {
+    "mascot": "🦎",
+    "dialogues": [
+      "Bem-vindo ao Acre! Terra de história na borracha e comunidades ribeirinhas e indígenas.",
+      "Rio Branco é a capital, com forte ligação às florestas e ao manejo sustentável.",
+      "A região tem tradições de extrativismo e experiência em conservação comunitária.",
+      "O turismo de base comunitária e as trilhas na floresta são destaque."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Foi polo da economia da borracha no início do século XX",
+        "Possui forte presença de povos indígenas e seringueiros"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Riqueza de biodiversidade",
+          "✅ Experiências em manejo florestal comunitário"
+        ],
+        "desafios": [
+          "⚠️ Infraestrutura e conectividade",
+          "⚠️ Pressões por ocupação e desmatamento"
+        ],
+        "geografia": [
+          "🌍 Região Norte",
+          "🌍 Área: ~164.000 km²",
+          "🌍 Bioma: Amazônia"
+        ],
+        "numeros": [
+          "📊 População: ~0,9M (estimado)",
+          "📊 IDH: médio"
+        ]
+      },
+      "personalidades": [
+        "Figuras locais de seringueiros e lideranças indígenas"
+      ],
+      "invencoes": [
+        "Práticas de manejo florestal comunitário"
+      ],
+      "economia": [
+        "⚡ Extrativismo sustentável, artesanato e serviços locais"
+      ],
+      "turismo": [
+        "🗺️ Trilhas na floresta",
+        "🗺️ Turismo de base comunitária"
+      ]
+    }
+  },
+  "BR-AL": {
+    "mascot": "🐢",
+    "dialogues": [
+      "Bem-vindo a Alagoas! Praias serenas, piscinas naturais e rica culinária.",
+      "Maceió e Maragogi são grandes atrativos turísticos.",
+      "A cultura local mistura influências indígenas, africanas e portuguesas.",
+      "Festas populares e artesanato marcam a identidade alagoana."
+    ],
+    "extras": {
+      "curiosidades": [
+        "As piscinas naturais de Pajuçara e Maragogi atraem turistas",
+        "Festas juninas e culinária são muito valorizadas"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo de praia consolidado",
+          "✅ Cenário natural atrativo"
+        ],
+        "desafios": [
+          "⚠️ Desigualdade regional",
+          "⚠️ Necessidade de investimentos em infraestrutura"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste",
+          "🌍 Área: ~27.800 km²",
+          "🌍 Litoral extenso com recifes"
+        ],
+        "numeros": [
+          "📊 População: ~3,3M (estimado)",
+          "📊 Economia fortemente ligada ao turismo"
+        ]
+      },
+      "personalidades": [
+        "Músicos e artesãos locais"
+      ],
+      "invencoes": [
+        "Práticas de turismo costeiro sustentável"
+      ],
+      "economia": [
+        "⚡ Turismo, pesca e fruticultura"
+      ],
+      "turismo": [
+        "🗺️ Maceió",
+        "🗺️ Maragogi",
+        "🗺️ Praia do Gunga"
+      ]
+    }
+  },
+  "BR-AM": {
+    "mascot": "🦜",
+    "dialogues": [
+      "Bem-vindo ao Amazonas! Coração da floresta amazônica e biodiversidade incomparável.",
+      "Manaus é porta de entrada para expedições e possui um polo industrial.",
+      "O rio Amazonas domina a paisagem e a vida local.",
+      "Pesquisa científica e ecoturismo têm grande importância."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Manaus abriga o Teatro Amazonas",
+        "O Encontro das Águas é fenômeno natural único"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Biodiversidade e patrimônio natural",
+          "✅ Polo industrial em Manaus (ZFM)"
+        ],
+        "desafios": [
+          "⚠️ Desmatamento e pressões por expansão agropecuária",
+          "⚠️ Logística e acesso em áreas remotas"
+        ],
+        "geografia": [
+          "🌍 Região Norte",
+          "🌍 Área: ~1.559.000 km²",
+          "🌍 Bioma: Amazônia"
+        ],
+        "numeros": [
+          "📊 População: ~4,2M (estimado)",
+          "📊 Grande extensão territorial"
+        ]
+      },
+      "personalidades": [
+        "Líderes de pesquisa amazônica e comunidades ribeirinhas"
+      ],
+      "invencoes": [
+        "Técnicas locais de manejo e uso sustentável de recursos"
+      ],
+      "economia": [
+        "⚡ Extrativismo, pesca, indústria (Zona Franca de Manaus) e serviços"
+      ],
+      "turismo": [
+        "🗺️ Teatro Amazonas",
+        "🗺️ Encontro das Águas",
+        "🗺️ Passeios fluviais"
+      ]
+    }
+  },
+  "BR-AP": {
+    "mascot": "🦜",
+    "dialogues": [
+      "Bem-vindo ao Amapá! Riqueza natural e marco equatorial em Macapá.",
+      "O estado preserva grandes áreas de floresta e ambientes costeiros.",
+      "Cultura local com forte presença de comunidades tradicionais.",
+      "Atividades ligadas a pesca e extrativismo são relevantes."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Macapá é cortada pela linha do Equador (Marco Zero)",
+        "Grande parte do território permanece preservada"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Riqueza de biodiversidade",
+          "✅ Potencial para pesquisa e ecoturismo"
+        ],
+        "desafios": [
+          "⚠️ Acesso e infraestrutura",
+          "⚠️ Desenvolvimento econômico sustentável"
+        ],
+        "geografia": [
+          "🌍 Região Norte",
+          "🌍 Área: ~142.800 km²",
+          "🌍 Bioma: Amazônia"
+        ],
+        "numeros": [
+          "📊 População: ~0,9M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Líderes indígenas e pesquisadores locais"
+      ],
+      "invencoes": [
+        "Práticas de turismo de base comunitária"
+      ],
+      "economia": [
+        "⚡ Extrativismo, pesca e serviços portuários"
+      ],
+      "turismo": [
+        "🗺️ Marco Zero do Equador",
+        "🗺️ Áreas de floresta e rios"
+      ]
+    }
+  },
+  "BR-BA": {
+    "mascot": "🐊",
+    "dialogues": [
+      "Bem-vindo à Bahia! Música, festas populares e um litoral diversificado.",
+      "Salvador é um grande centro cultural com forte herança afro-brasileira.",
+      "Chapada Diamantina e o litoral oferecem turismo natural e histórico.",
+      "Gastronomia e folclore são marcas do estado."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Salvador foi a primeira capital do Brasil colonial",
+        "Riqueza de manifestações culturais: axé, samba de roda, festas populares"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Riqueza cultural e turística",
+          "✅ Diversidade de biomas e paisagens"
+        ],
+        "desafios": [
+          "⚠️ Desigualdade social em áreas urbanas",
+          "⚠️ Pressões sobre áreas naturais"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste",
+          "🌍 Área: ~564.700 km²",
+          "🌍 Biomas: Mata Atlântica, Caatinga"
+        ],
+        "numeros": [
+          "📊 População: ~15M (estimado)",
+          "📊 PIB regional expressivo"
+        ]
+      },
+      "personalidades": [
+        "Músicos e artistas (forte cena cultural)"
+      ],
+      "invencoes": [
+        "Práticas culturais e tecnológicas ligadas ao turismo"
+      ],
+      "economia": [
+        "⚡ Turismo, agricultura, indústria e comércio"
+      ],
+      "turismo": [
+        "🗺️ Salvador - Pelourinho",
+        "🗺️ Chapada Diamantina",
+        "🗺️ Litoral (Itacaré, Porto Seguro)"
+      ]
+    }
+  },
+  "BR-CE": {
+    "mascot": "🦜",
+    "dialogues": [
+      "Bem-vindo ao Ceará! Praias, forró e forte identidade cultural.",
+      "Jericoacoara e Canoa Quebrada são cartões-postais de praia e vento.",
+      "Fortaleza é um grande centro turístico e de eventos.",
+      "O estado também investe em energia eólica."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Jericoacoara é reconhecida internacionalmente",
+        "Alto desenvolvimento de energia eólica na costa"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo consolidado",
+          "✅ Energia renovável em expansão"
+        ],
+        "desafios": [
+          "⚠️ Gestão hídrica em áreas interiores",
+          "⚠️ Desigualdade entre litoral e sertão"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste",
+          "🌍 Área: ~148.800 km²",
+          "🌍 Biomas: Caatinga e Mata Atlântica costeira"
+        ],
+        "numeros": [
+          "📊 População: ~9,2M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Artistas e chefes de cozinha regionais"
+      ],
+      "invencoes": [
+        "Projetos de infraestrutura para turismo costeiro"
+      ],
+      "economia": [
+        "⚡ Turismo, serviços e energia eólica"
+      ],
+      "turismo": [
+        "🗺️ Jericoacoara",
+        "🗺️ Fortaleza",
+        "🗺️ Canoa Quebrada"
+      ]
+    }
+  },
+  "BR-DF": {
+    "mascot": "🏛️",
+    "dialogues": [
+      "Bem-vindo ao Distrito Federal! Brasília, capital projetada e Patrimônio Mundial.",
+      "A cidade concentra órgãos públicos, cultura e arquitetura modernista.",
+      "Parques e áreas de cerrado complementam o cenário urbano.",
+      "O DF tem forte dinâmica administrativa e de serviços."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Brasília foi planejada por Lúcio Costa e Oscar Niemeyer",
+        "É Patrimônio Mundial da UNESCO"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Centro político e administrativo do país",
+          "✅ Arquitetura modernista de destaque"
+        ],
+        "desafios": [
+          "⚠️ Desigualdade nas regiões satélites",
+          "⚠️ Preservação do cerrado"
+        ],
+        "geografia": [
+          "🌍 Região Centro-Oeste (enclave)",
+          "🌍 Área: ~5.800 km²",
+          "🌍 Bioma: Cerrado"
+        ],
+        "numeros": [
+          "📊 População metropolitana: ~3M (estimado)",
+          "📊 Alto PIB per capita"
+        ]
+      },
+      "personalidades": [
+        "Arquitetos e urbanistas ligados a Brasília"
+      ],
+      "invencoes": [
+        "Modelos de planejamento urbano modernista"
+      ],
+      "economia": [
+        "⚡ Serviços públicos, administração e turismo cívico"
+      ],
+      "turismo": [
+        "🗺️ Esplanada dos Ministérios",
+        "🗺️ Catedral de Brasília",
+        "🗺️ Parques e museus"
+      ]
+    }
+  },
+  "BR-ES": {
+    "mascot": "🦀",
+    "dialogues": [
+      "Bem-vindo ao Espírito Santo! Montanhas, praias e tradição capixaba.",
+      "Vitória, Vila Velha e cidades serranas compõem um estado diverso.",
+      "Portos e produção de rochas ornamentais têm peso econômico.",
+      "Culinária capixaba é reconhecida pela variedade de frutos do mar."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Café Conilon e cacau são culturas importantes",
+        "Porto de Tubarão e Vitória têm papel logístico"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Posição estratégica em logística portuária",
+          "✅ Agricultura diversificada e turismo litorâneo"
+        ],
+        "desafios": [
+          "⚠️ Proteção de ecossistemas costeiros",
+          "⚠️ Desigualdade entre litoral e interior"
+        ],
+        "geografia": [
+          "🌍 Região Sudeste",
+          "🌍 Área: ~46.095 km²",
+          "🌍 Biomas: Mata Atlântica e áreas montanhosas"
+        ],
+        "numeros": [
+          "📊 População: ~4,1M (estimado)",
+          "📊 PIB: ~R$ 220 bi (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Roberto Carlos (nascido em Cachoeiro)",
+        "Rubem Braga (escritor)"
+      ],
+      "invencoes": [
+        "Soluções logísticas portuárias e técnicas de beneficiamento de rochas"
+      ],
+      "economia": [
+        "⚡ Portos, rochas ornamentais, agricultura e serviços offshore"
+      ],
+      "turismo": [
+        "🗺️ Guarapari",
+        "🗺️ Pedra Azul",
+        "🗺️ Convento da Penha"
+      ]
+    }
+  },
+  "BR-GO": {
+    "mascot": "🦉",
+    "dialogues": [
+      "Bem-vindo a Goiás! Chapadas, música sertaneja e forte agropecuária.",
+      "Chapada dos Veadeiros e Pirenópolis são polos turísticos naturais.",
+      "A economia combina agro, serviços e cultura regional.",
+      "Goiânia é centro urbano e cultural da região."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Goiânia tem forte tradição musical (sertanejo)",
+        "Chapada dos Veadeiros é área de proteção com trilhas"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Produção agropecuária sólida",
+          "✅ Turismo de natureza em chapadas"
+        ],
+        "desafios": [
+          "⚠️ Proteção do cerrado frente à expansão agrícola",
+          "⚠️ Infraestrutura rodoviária"
+        ],
+        "geografia": [
+          "🌍 Região Centro-Oeste",
+          "🌍 Área: ~340.086 km²",
+          "🌍 Bioma: Cerrado"
+        ],
+        "numeros": [
+          "📊 População: ~7M (estimado)",
+          "📊 PIB regional relevante"
+        ]
+      },
+      "personalidades": [
+        "Músicos e figuras culturais goianas"
+      ],
+      "invencoes": [
+        "Práticas de manejo agropecuário adaptadas ao cerrado"
+      ],
+      "economia": [
+        "⚡ Agropecuária, pecuária e turismo"
+      ],
+      "turismo": [
+        "🗺️ Chapada dos Veadeiros",
+        "🗺️ Pirenópolis"
+      ]
+    }
+  },
+  "BR-MA": {
+    "mascot": "🪶",
+    "dialogues": [
+      "Bem-vindo ao Maranhão! Lençóis e tradição popular.",
+      "São Luís preserva arquitetura colonial e manifestações culturais fortes.",
+      "Lençóis Maranhenses é destaque natural de grande beleza.",
+      "Culinária e festas locais são muito presentes."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Lençóis Maranhenses forma lagoas entre dunas",
+        "São Luís tem vasto conjunto de azulejos coloniais"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo natural e patrimônio histórico",
+          "✅ Riqueza cultural"
+        ],
+        "desafios": [
+          "⚠️ Infraestrutura turística e social",
+          "⚠️ Proteção de manguezais"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste (noroeste)",
+          "🌍 Área: ~331.937 km²",
+          "🌍 Biomas: Amazônia, mangues, cerrado em transição"
+        ],
+        "numeros": [
+          "📊 População: ~7,1M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Artistas populares e mestres de folclore"
+      ],
+      "invencoes": [
+        "Técnicas de turismo sustentável em dunas e mangues"
+      ],
+      "economia": [
+        "⚡ Turismo, pesca e agricultura"
+      ],
+      "turismo": [
+        "🗺️ Lençóis Maranhenses",
+        "🗺️ Centro Histórico de São Luís",
+        "🗺️ Alcântara"
+      ]
+    }
+  },
+  "BR-MG": {
+    "mascot": "🐺",
+    "dialogues": [
+      "Bem-vindo a Minas Gerais! História, gastronomia e montanhas.",
+      "Cidades históricas como Ouro Preto e Tiradentes atraem turismo cultural.",
+      "A produção de café e laticínios é tradicional e forte.",
+      "Cenário cultural e artístico muito rico."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Famoso pelo queijo e pela cozinha mineira",
+        "Inhotim é referência em arte contemporânea"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Economia diversificada: mineração, agro e indústria",
+          "✅ Potencial turístico histórico e natural"
+        ],
+        "desafios": [
+          "⚠️ Gestão ambiental na mineração",
+          "⚠️ Desigualdades regionais"
+        ],
+        "geografia": [
+          "🌍 Região Sudeste",
+          "🌍 Área: ~586.528 km²",
+          "🌍 Biomas: Mata Atlântica e Cerrado"
+        ],
+        "numeros": [
+          "📊 População: ~21M (estimado)",
+          "📊 PIB relevante nacionalmente"
+        ]
+      },
+      "personalidades": [
+        "Milton Nascimento",
+        "Carlos Drummond de Andrade"
+      ],
+      "invencoes": [
+        "Práticas de beneficiamento de laticínios e tecnologias mineiras"
+      ],
+      "economia": [
+        "⚡ Mineração, agropecuária, indústria e serviços"
+      ],
+      "turismo": [
+        "🗺️ Ouro Preto",
+        "🗺️ Inhotim",
+        "🗺️ Serra da Canastra"
+      ]
+    }
+  },
+  "BR-MS": {
+    "mascot": "🦌",
+    "dialogues": [
+      "Bem-vindo a Mato Grosso do Sul! Pantanal e ecoturismo.",
+      "Bonito e o Pantanal são destaques mundiais para observação da natureza.",
+      "A pecuária e o turismo de natureza são pilares econômicos.",
+      "Cultura regional com forte vinculação ao campo."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Bonito é conhecido por mergulho e águas cristalinas",
+        "Pantanal é maior planície alagável continental"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo de natureza consolidado",
+          "✅ Boas práticas de ecoturismo em áreas protegidas"
+        ],
+        "desafios": [
+          "⚠️ Pressões agropecuárias sobre áreas de preservação",
+          "⚠️ Gestão hídrica"
+        ],
+        "geografia": [
+          "🌍 Região Centro-Oeste",
+          "🌍 Área: ~357.145 km²",
+          "🌍 Biomas: Pantanal e Cerrado"
+        ],
+        "numeros": [
+          "📊 População: ~2,8M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Ativistas ambientais e guias locais"
+      ],
+      "invencoes": [
+        "Técnicas de turismo sustentável e manejo de áreas alagadas"
+      ],
+      "economia": [
+        "⚡ Pecuária, turismo e agricultura"
+      ],
+      "turismo": [
+        "🗺️ Bonito",
+        "🗺️ Pantanal",
+        "🗺️ Parque das Emas"
+      ]
+    }
+  },
+  "BR-MT": {
+    "mascot": "🦬",
+    "dialogues": [
+      "Bem-vindo a Mato Grosso! Grande produtor agrícola e portas para o Pantanal.",
+      "Chapada dos Guimarães e áreas pantaneiras são atrações naturais.",
+      "O estado tem forte presença do agronegócio.",
+      "A conservação e o desenvolvimento rural são temas centrais."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Grande produtor de soja, milho e algodão",
+        "Chapada dos Guimarães é importante área turística"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Potência agrícola do país",
+          "✅ Áreas de conservação de valor ecológico"
+        ],
+        "desafios": [
+          "⚠️ Desmatamento e conflitos fundiários",
+          "⚠️ Infraestrutura logística em áreas remotas"
+        ],
+        "geografia": [
+          "🌍 Região Centro-Oeste",
+          "🌍 Área: ~903.357 km²",
+          "🌍 Biomas: Cerrado, Pantanal, Amazônia"
+        ],
+        "numeros": [
+          "📊 População: ~3,5M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Líderes do setor agropecuário e pesquisadores"
+      ],
+      "invencoes": [
+        "Métodos de plantio e logística para grandes monoculturas"
+      ],
+      "economia": [
+        "⚡ Agronegócio, exportação de grãos e pecuária"
+      ],
+      "turismo": [
+        "🗺️ Chapada dos Guimarães",
+        "🗺️ Pantanal norte"
+      ]
+    }
+  },
+  "BR-PA": {
+    "mascot": "🐟",
+    "dialogues": [
+      "Bem-vindo ao Pará! Florestas, rios e culinária amazônica rica.",
+      "Belém guarda mercados icônicos e tradições gastronômicas.",
+      "Arquipélago do Marajó e ecossistemas costeiros são únicos.",
+      "Cultura e festas religiosas marcam a região."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Culinária com tucupi, jambu e açaí",
+        "Ver-o-Peso é mercado tradicional em Belém"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Rica biodiversidade e cultura",
+          "✅ Potencial logístico por rios e portos"
+        ],
+        "desafios": [
+          "⚠️ Pressões por desmatamento",
+          "⚠️ Desenvolvimento sustentável da infraestrutura"
+        ],
+        "geografia": [
+          "🌍 Região Norte",
+          "🌍 Área: ~1.247.689 km²",
+          "🌍 Bioma: Amazônia"
+        ],
+        "numeros": [
+          "📊 População: ~8,6M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Chefes e artistas locais"
+      ],
+      "invencoes": [
+        "Tecnologias e práticas de manejo florestal"
+      ],
+      "economia": [
+        "⚡ Extrativismo, agricultura, pesca e portos"
+      ],
+      "turismo": [
+        "🗺️ Ver-o-Peso (Belém)",
+        "🗺️ Ilhas do Marajó",
+        "🗺️ Floresta e rios amazônicos"
+      ]
+    }
+  },
+  "BR-PB": {
+    "mascot": "🌴",
+    "dialogues": [
+      "Bem-vindo à Paraíba! Litoral bonito, festas e patrimônio histórico.",
+      "João Pessoa destaca-se pelas praias urbanas e arquitetura preservada.",
+      "Cultura local com festas juninas e música regional.",
+      "Turismo de praia e ecoturismo crescentes."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Areia Vermelha é atração natural sazonal",
+        "Festas juninas altamente celebradas"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo de praia e patrimônio cultural",
+          "✅ Potencial para turismo ecológico"
+        ],
+        "desafios": [
+          "⚠️ Diversificação econômica",
+          "⚠️ Infraestrutura turística em áreas menores"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste",
+          "🌍 Área: ~56.467 km²",
+          "🌍 Litoral com recifes e restingas"
+        ],
+        "numeros": [
+          "📊 População: ~4M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Artistas e mestres da cultura local"
+      ],
+      "invencoes": [
+        "Eventos culturais e roteiros de turismo costeiro"
+      ],
+      "economia": [
+        "⚡ Turismo, têxtil, agricultura"
+      ],
+      "turismo": [
+        "🗺️ João Pessoa",
+        "🗺️ Tambaba",
+        "🗺️ Areia Vermelha"
+      ]
+    }
+  },
+  "BR-PE": {
+    "mascot": "🦩",
+    "dialogues": [
+      "Bem-vindo a Pernambuco! História, música e praias incríveis.",
+      "Recife e Olinda têm patrimônio arquitetônico e festas populares.",
+      "Porto de Suape é polo logístico e industrial regional.",
+      "Cultura do frevo e maracatu é destaque nacional."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Olinda é famosa pelo carnaval de rua e seu casario",
+        "Porto de Suape é importante hub logístico"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo cultural e infraestrutura portuária",
+          "✅ Polo industrial em Suape"
+        ],
+        "desafios": [
+          "⚠️ Desigualdade social",
+          "⚠️ Pressões urbanas em áreas históricas"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste",
+          "🌍 Área: ~98.311 km²",
+          "🌍 Biomas: Mata Atlântica e Caatinga"
+        ],
+        "numeros": [
+          "📊 População: ~9,6M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Músicos e artistas pernambucanos"
+      ],
+      "invencoes": [
+        "Soluções de turismo cultural e logística portuária"
+      ],
+      "economia": [
+        "⚡ Turismo, indústria, agroindústria e logística"
+      ],
+      "turismo": [
+        "🗺️ Recife",
+        "🗺️ Olinda",
+        "🗺️ Porto de Galinhas"
+      ]
+    }
+  },
+  "BR-PI": {
+    "mascot": "🦅",
+    "dialogues": [
+      "Bem-vindo ao Piauí! Sítios arqueológicos e ecoturismo.",
+      "Serra da Capivara é referência arqueológica internacional.",
+      "Teresina é centro cultural e administrativo do estado.",
+      "O litoral e o delta do Parnaíba são opções naturais únicas."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Serra da Capivara reúne pinturas rupestres milenares",
+        "Delta do Parnaíba é ecossistema singular na região"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Patrimônio arqueológico e potencial científico",
+          "✅ Potencial para turismo de natureza"
+        ],
+        "desafios": [
+          "⚠️ Infraestrutura e acesso a sítios remotos",
+          "⚠️ Desenvolvimento econômico desigual"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste (oeste)",
+          "🌍 Área: ~251.577 km²",
+          "🌍 Biomas: Cerrado e Caatinga"
+        ],
+        "numeros": [
+          "📊 População: ~3,3M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Pesquisadores e líderes locais"
+      ],
+      "invencoes": [
+        "Técnicas de preservação arqueológica e turismo científico"
+      ],
+      "economia": [
+        "⚡ Agricultura, pecuária e turismo arqueológico"
+      ],
+      "turismo": [
+        "🗺️ Serra da Capivara",
+        "🗺️ Delta do Parnaíba",
+        "🗺️ Litoral piauiense"
+      ]
+    }
+  },
+  "BR-PR": {
+    "mascot": "🦙",
+    "dialogues": [
+      "Bem-vindo ao Paraná! Progresso industrial e natureza impressionante.",
+      "Cataratas do Iguaçu e Curitiba são atrações internacionais.",
+      "Setor agrícola e energia renovável (Itaipu) são pilares econômicos.",
+      "O planejamento urbano de Curitiba é referência."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Paraná é grande produtor de trigo e frango",
+        "Itaipu é uma das maiores usinas hidrelétricas do mundo"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ 4º maior PIB estadual",
+          "✅ Forte produção agrícola e geração de energia"
+        ],
+        "desafios": [
+          "⚠️ Perda de Mata Atlântica",
+          "⚠️ Desigualdade regional"
+        ],
+        "geografia": [
+          "🌍 Região Sul",
+          "🌍 Área: ~199.307 km²",
+          "🌍 Biomas: Mata Atlântica e Cerrado"
+        ],
+        "numeros": [
+          "📊 População: ~11,4M (estimado)",
+          "📊 PIB significativo (setores agro e industrial)"
+        ]
+      },
+      "personalidades": [
+        "Figuras do esporte e cultura com ligações ao estado"
+      ],
+      "invencoes": [
+        "Tecnologias de irrigação e processamento agrícola"
+      ],
+      "economia": [
+        "⚡ Agronegócio, energia e indústria"
+      ],
+      "turismo": [
+        "🗺️ Cataratas do Iguaçu",
+        "🗺️ Curitiba",
+        "🗺️ Litoral do Paraná"
+      ]
+    }
+  },
+  "BR-RJ": {
+    "mascot": "🐒",
+    "dialogues": [
+      "Bem-vindo ao Rio de Janeiro! Praias, Carnaval e patrimônio cultural.",
+      "O Cristo Redentor e o Pão de Açúcar são símbolos mundiais.",
+      "Setor audiovisual e turismo são forças econômicas locais.",
+      "A região tem grande diversidade de paisagens e cultura."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Cristo Redentor é um dos monumentos mais visitados do país",
+        "O Carnaval do Rio é evento de escala internacional"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Forte setor turístico e cultural",
+          "✅ Indústria audiovisual desenvolvida"
+        ],
+        "desafios": [
+          "⚠️ Segurança pública em áreas urbanas",
+          "⚠️ Recuperação de áreas degradadas"
+        ],
+        "geografia": [
+          "🌍 Região Sudeste",
+          "🌍 Área: ~43.696 km²",
+          "🌍 Biomas: Mata Atlântica e litoral"
+        ],
+        "numeros": [
+          "📊 População: ~17M (estimado)",
+          "📊 PIB estadual elevado"
+        ]
+      },
+      "personalidades": [
+        "Tom Jobim, Vinicius de Moraes e artistas da MPB"
+      ],
+      "invencoes": [
+        "Inovações no setor audiovisual e eventos"
+      ],
+      "economia": [
+        "⚡ Turismo, audiovisual, petróleo e serviços"
+      ],
+      "turismo": [
+        "🗺️ Cristo Redentor",
+        "🗺️ Copacabana",
+        "🗺️ Parques e trilhas"
+      ]
+    }
+  },
+  "BR-RN": {
+    "mascot": "🐚",
+    "dialogues": [
+      "Bem-vindo ao Rio Grande do Norte! Dunas, falésias e praias extensas.",
+      "Natal é destaque por suas praias e turismo de lazer.",
+      "O estado desenvolve geração eólica no litoral.",
+      "Culinária regional e festas locais enriquecem a experiência."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Genipabu e Ponta Negra são pontos turísticos famosos",
+        "Parque das Dunas protege vegetação costeira"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo litorâneo em crescimento",
+          "✅ Potencial em energia eólica"
+        ],
+        "desafios": [
+          "⚠️ Desenvolvimento urbano sustentável nas zonas costeiras",
+          "⚠️ Desigualdade nas áreas interiores"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste (extremo leste)",
+          "🌍 Área: ~52.811 km²"
+        ],
+        "numeros": [
+          "📊 População: ~3,5M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Artistas e líderes da cultura potiguar"
+      ],
+      "invencoes": [
+        "Técnicas de manejo costeiro e turismo sustentável"
+      ],
+      "economia": [
+        "⚡ Turismo, pesca e energia eólica"
+      ],
+      "turismo": [
+        "🗺️ Ponta Negra",
+        "🗺️ Genipabu",
+        "🗺️ Parque das Dunas"
+      ]
+    }
+  },
+  "BR-RS": {
+    "mascot": "🦅",
+    "dialogues": [
+      "Bem-vindo ao Rio Grande do Sul! Tradição gaúcha, vinhos e paisagens variadas.",
+      "O Vale dos Vinhedos e as serras são importantes polos turísticos e econômicos.",
+      "Agronegócio e indústria se combinam na economia estadual.",
+      "Cultura do chimarrão e do churrasco marcam a região."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Vale dos Vinhedos é referência em enoturismo",
+        "Tradições gaúchas influenciam a cultura local"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Economia diversificada (agro, indústria e serviços)",
+          "✅ Forte tradição em educação e cultura"
+        ],
+        "desafios": [
+          "⚠️ Eventos climáticos extremos",
+          "⚠️ Êxodo rural em algumas áreas"
+        ],
+        "geografia": [
+          "🌍 Região Sul",
+          "🌍 Área: ~281.748 km²",
+          "🌍 Biomas: Mata Atlântica, campos e cerrados"
+        ],
+        "numeros": [
+          "📊 População: ~11,4M (estimado)",
+          "📊 PIB relevante nacionalmente"
+        ]
+      },
+      "personalidades": [
+        "Escritores, músicos e figuras públicas do RS"
+      ],
+      "invencoes": [
+        "Tecnologias para viticultura e energia eólica"
+      ],
+      "economia": [
+        "⚡ Agricultura, vinicultura, indústria e serviços"
+      ],
+      "turismo": [
+        "🗺️ Vale dos Vinhedos",
+        "🗺️ Cânions",
+        "🗺️ Lagoa dos Patos"
+      ]
+    }
+  },
+  "BR-RO": {
+    "mascot": "🐂",
+    "dialogues": [
+      "Bem-vindo a Rondônia! História de colonização agrícola e natureza.",
+      "Porto Velho é centro regional junto ao rio Madeira.",
+      "A economia combina produção agropecuária e extrativismo.",
+      "Conservação e desenvolvimento são temas em debate local."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Rondônia foi frente pioneira de colonização agrícola",
+        "Possui trechos importantes do bioma amazônico"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Produção agropecuária relevante",
+          "✅ Áreas de floresta com valor ecológico"
+        ],
+        "desafios": [
+          "⚠️ Controle do desmatamento",
+          "⚠️ Desafios de infraestrutura"
+        ],
+        "geografia": [
+          "🌍 Região Norte",
+          "🌍 Área: ~237.590 km²"
+        ],
+        "numeros": [
+          "📊 População: ~1,8M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Líderes agropecuários e comunitários"
+      ],
+      "invencoes": [
+        "Soluções logísticas para escoamento agrícola"
+      ],
+      "economia": [
+        "⚡ Agricultura, pecuária e extrativismo"
+      ],
+      "turismo": [
+        "🗺️ Rios e reservas naturais"
+      ]
+    }
+  },
+  "BR-RR": {
+    "mascot": "🐆",
+    "dialogues": [
+      "Bem-vindo a Roraima! Paisagens de savana e monte icônico.",
+      "Monte Roraima e áreas indígenas são destaques naturais e culturais.",
+      "Boa Vista conecta iniciativas de desenvolvimento regional.",
+      "O estado tem potencial para ecoturismo e pesquisa."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Monte Roraima é formação de tepui única",
+        "Importante presença de comunidades indígenas"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Riqueza natural e cultural",
+          "✅ Potencial para ecoturismo"
+        ],
+        "desafios": [
+          "⚠️ Logística e acesso",
+          "⚠️ Desenvolvimento sustentável"
+        ],
+        "geografia": [
+          "🌍 Região Norte",
+          "🌍 Área: ~224.300 km²"
+        ],
+        "numeros": [
+          "📊 População: ~0,6M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Líderes indígenas e comunitários locais"
+      ],
+      "invencoes": [
+        "Práticas sustentáveis em comunidades tradicionais"
+      ],
+      "economia": [
+        "⚡ Extrativismo e pecuária"
+      ],
+      "turismo": [
+        "🗺️ Monte Roraima",
+        "🗺️ Ecoturismo indígena"
+      ]
+    }
+  },
+  "BR-SC": {
+    "mascot": "🦅",
+    "dialogues": [
+      "Bem-vindo a Santa Catarina! Montanhas, praias e forte indústria.",
+      "Florianópolis combina qualidade de vida e turismo litorâneo.",
+      "O estado tem alto IDH e indústria diversificada.",
+      "Cidades como Blumenau e Joinville têm forte vocação econômica."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Maior produtor de suínos do Brasil",
+        "Serra Geral possui cânions impressionantes"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Alto IDH e desenvolvimento",
+          "✅ Indústria e turismo fortes"
+        ],
+        "desafios": [
+          "⚠️ Impacto ambiental da suinocultura",
+          "⚠️ Pressão imobiliária em ilhas e litoral"
+        ],
+        "geografia": [
+          "🌍 Região Sul",
+          "🌍 Área: ~95.346 km²"
+        ],
+        "numeros": [
+          "📊 População: ~7,3M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Figuras do esporte, moda e cultura"
+      ],
+      "invencoes": [
+        "Tecnologias de aquicultura e processamento de alimentos"
+      ],
+      "economia": [
+        "⚡ Indústria, turismo, agricultura e pesca"
+      ],
+      "turismo": [
+        "🗺️ Florianópolis",
+        "🗺️ Blumenau",
+        "🗺️ Balneário Camboriú"
+      ]
+    }
+  },
+  "BR-SP": {
+    "mascot": "🦦",
+    "dialogues": [
+      "Bem-vindo a São Paulo! Centro econômico, cultural e científico do país.",
+      "A capital concentra finanças, educação e diversidade cultural.",
+      "O interior paulista é grande polo agroindustrial.",
+      "Eventos internacionais e pesquisa científica são destaque."
+    ],
+    "extras": {
+      "curiosidades": [
+        "São Paulo tem o maior PIB estadual do Brasil",
+        "A Avenida Paulista é um centro cultural e financeiro"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Maior economia entre estados",
+          "✅ Polo educacional e tecnológico"
+        ],
+        "desafios": [
+          "⚠️ Mobilidade urbana e desigualdade",
+          "⚠️ Pressão por moradia"
+        ],
+        "geografia": [
+          "🌍 Região Sudeste",
+          "🌍 Área: ~248.222 km²"
+        ],
+        "numeros": [
+          "📊 População: ~46M (estimado)",
+          "📊 PIB: ~R$ 2,1 tri (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Líderes culturais, acadêmicos e empresariais"
+      ],
+      "invencoes": [
+        "Soluções em logística, fintechs e urbanismo"
+      ],
+      "economia": [
+        "⚡ Serviços, indústria, tecnologia e agro"
+      ],
+      "turismo": [
+        "🗺️ Avenida Paulista",
+        "🗺️ Parque Ibirapuera",
+        "🗺️ Campos do Jordão"
+      ]
+    }
+  },
+  "BR-SE": {
+    "mascot": "🐠",
+    "dialogues": [
+      "Bem-vindo a Sergipe! O menor estado do Brasil em área, com litoral e cultura rica.",
+      "Aracaju é conhecida por praias urbanas e qualidade de vida.",
+      "Festas religiosas e culinária local são destaques culturais.",
+      "Economia baseada em serviços, pesca e agricultura."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Sergipe é o menor estado brasileiro por área",
+        "Aracaju tem planejamento urbano reconhecido"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo costeiro e qualidade de vida",
+          "✅ Agricultura e pesca locais"
+        ],
+        "desafios": [
+          "⚠️ Diversificação econômica",
+          "⚠️ Investimentos em infraestrutura"
+        ],
+        "geografia": [
+          "🌍 Região Nordeste",
+          "🌍 Área: ~21.900 km²"
+        ],
+        "numeros": [
+          "📊 População: ~2,3M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Figuras culturais locais"
+      ],
+      "invencoes": [
+        "Iniciativas locais de turismo e pesca sustentável"
+      ],
+      "economia": [
+        "⚡ Turismo, pesca e agricultura"
+      ],
+      "turismo": [
+        "🗺️ Aracaju",
+        "🗺️ Cânions e praias locais"
+      ]
+    }
+  },
+  "BR-TO": {
+    "mascot": "🌵",
+    "dialogues": [
+      "Bem-vindo ao Tocantins! Jalapão e ecoturismo em destaque.",
+      "Palmas é capital planejada e porta de entrada para roteiros naturais.",
+      "O Jalapão tem fervedouros, dunas e paisagens únicas.",
+      "Turismo de aventura cresce na região."
+    ],
+    "extras": {
+      "curiosidades": [
+        "Jalapão é famoso por fervedouros e dunas",
+        "Palmas é cidade planejada com lago artificial"
+      ],
+      "destaques": {
+        "positivos": [
+          "✅ Turismo de natureza em rápido crescimento",
+          "✅ Potencial para ecoturismo"
+        ],
+        "desafios": [
+          "⚠️ Acesso e infraestrutura",
+          "⚠️ Conservação de áreas frágeis"
+        ],
+        "geografia": [
+          "🌍 Região Norte / transição",
+          "🌍 Área: ~277.619 km²",
+          "🌍 Biomas: Cerrado e chapadas"
+        ],
+        "numeros": [
+          "📊 População: ~1,6M (estimado)"
+        ]
+      },
+      "personalidades": [
+        "Guias e empreendedores do turismo local"
+      ],
+      "invencoes": [
+        "Modelos de roteiros sustentáveis"
+      ],
+      "economia": [
+        "⚡ Agricultura, pecuária e turismo"
+      ],
+      "turismo": [
+        "🗺️ Jalapão",
+        "🗺️ Palmas"
+      ]
+    }
+  }
+}
