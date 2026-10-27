@@ -197,7 +197,7 @@
       "destaques": {"positivos": ["✅ Agronegócio forte"], "desafios": ["⚠️ Desmatamento"]},
       "geografia": ["🌍 Região Centro-Oeste", "🌍 Área: 903.357 km²"],
       "numeros": ["📊 População: ~3,5 milhões (estimado)"],
-      "economia": ["⚡ Agronegócio"], 
+      "economia": ["⚡ Agronegócio"],
       "turismo": ["🗺️ Chapada dos Guimarães", "🗺️ Pantanal"]
     }
   },
@@ -212,7 +212,7 @@
       "destaques": {"positivos": ["✅ Riqueza cultural e biodiversidade"], "desafios": ["⚠️ Pressão por desmatamento"]},
       "geografia": ["🌍 Região Norte", "🌍 Área: 1.247.689 km²"],
       "numeros": ["📊 População: ~8,6 milhões (estimado)"],
-      "economia": ["⚡ Extrativismo, pesca, agricultura"], 
+      "economia": ["⚡ Extrativismo, pesca, agricultura"],
       "turismo": ["🗺️ Ver-o-Peso (Belém)", "🗺️ Ilhas do Marajó"]
     }
   },
@@ -227,7 +227,7 @@
       "destaques": {"positivos": ["✅ Turismo de praia e patrimônio"], "desafios": ["⚠️ Diversificação econômica"]},
       "geografia": ["🌍 Região Nordeste", "🌍 Área: 56.467 km²"],
       "numeros": ["📊 População: ~4 milhões (estimado)"],
-      "economia": ["⚡ Turismo, têxtil e agricultura"], 
+      "economia": ["⚡ Turismo, têxtil e agricultura"],
       "turismo": ["🗺️ João Pessoa", "🗺️ Tambaba"]
     }
   },
@@ -242,7 +242,7 @@
       "destaques": {"positivos": ["✅ Turismo cultural e infraestrutura portuária"], "desafios": ["⚠️ Desigualdade social"]},
       "geografia": ["🌍 Região Nordeste", "🌍 Área: 98.311 km²"],
       "numeros": ["📊 População: ~9,6 milhões (estimado)"],
-      "economia": ["⚡ Turismo, agroindústria e logística"], 
+      "economia": ["⚡ Turismo, agroindústria e logística"],
       "turismo": ["🗺️ Recife e Olinda", "🗺️ Porto de Galinhas"]
     }
   },
@@ -253,11 +253,11 @@
       "Parque Nacional Serra da Capivara guarda evidências pré-históricas importantes."
     ],
     "extras": {
-      "curiosidades": ["Serra da Capivara tem pinturas rupestres"], 
+      "curiosidades": ["Serra da Capivara tem pinturas rupestres"],
       "destaques": {"positivos": ["✅ Patrimônio arqueológico"], "desafios": ["⚠️ Acesso e infraestrutura"]},
       "geografia": ["🌍 Região Nordeste", "🌍 Área: 251.577 km²"],
       "numeros": ["📊 População: ~3,3 milhões (estimado)"],
-      "economia": ["⚡ Agricultura e turismo arqueológico"], 
+      "economia": ["⚡ Agricultura e turismo arqueológico"],
       "turismo": ["🗺️ Serra da Capivara", "🗺️ Delta do Parnaíba"]
     }
   },
@@ -268,11 +268,11 @@
       "Abriga as Cataratas do Iguaçu e a Usina de Itaipu."
     ],
     "extras": {
-      "curiosidades": ["Paraná produz muito trigo e frango"], 
+      "curiosidades": ["Paraná produz muito trigo e frango"],
       "destaques": {"positivos": ["✅ 4º maior PIB"], "desafios": ["⚠️ Perda de Mata Atlântica"]},
       "geografia": ["🌍 Região Sul", "🌍 Área: 199.307 km²"],
       "numeros": ["📊 População: ~11,4 milhões (estimado)"],
-      "economia": ["⚡ Agricultura, indústria e energia"], 
+      "economia": ["⚡ Agricultura, indústria e energia"],
       "turismo": ["🗺️ Cataratas do Iguaçu", "🗺️ Curitiba"]
     }
   },
@@ -283,11 +283,11 @@
       "O litoral carioca e o Cristo Redentor são ícones reconhecidos mundialmente."
     ],
     "extras": {
-      "curiosidades": ["Cristo Redentor e Carnaval são pontos fortes"], 
+      "curiosidades": ["Cristo Redentor e Carnaval são pontos fortes"],
       "destaques": {"positivos": ["✅ Turismo e cultura"], "desafios": ["⚠️ Segurança pública"]},
       "geografia": ["🌍 Região Sudeste", "🌍 Área: 43.696 km²"],
       "numeros": ["📊 População: ~17 milhões (estimado)"],
-      "economia": ["⚡ Turismo, audiovisual e petróleo"], 
+      "economia": ["⚡ Turismo, audiovisual e petróleo"],
       "turismo": ["🗺️ Cristo Redentor", "🗺️ Copacabana"]
     }
   },
@@ -298,11 +298,11 @@
       "Natal é conhecida por suas praias extensas e dunas."
     ],
     "extras": {
-      "curiosidades": ["Genipabu e Ponta Negra são destaques"], 
+      "curiosidades": ["Genipabu e Ponta Negra são destaques"],
       "destaques": {"positivos": ["✅ Turismo litorâneo"], "desafios": ["⚠️ Desenvolvimento urbano sustentável"]},
       "geografia": ["🌍 Região Nordeste", "🌍 Área: 52.811 km²"],
       "numeros": ["📊 População: ~3,5 milhões (estimado)"],
-      "economia": ["⚡ Turismo e pesca"], 
+      "economia": ["⚡ Turismo e pesca"],
       "turismo": ["🗺️ Ponta Negra", "🗺️ Genipabu"]
     }
   },
@@ -313,11 +313,11 @@
       "Porto Velho é polo regional ligado ao rio Madeira."
     ],
     "extras": {
-      "curiosidades": ["Foi pioneiro na colonização agropecuária"], 
+      "curiosidades": ["Foi pioneiro na colonização agropecuária"],
       "destaques": {"positivos": ["✅ Produção agropecuária"], "desafios": ["⚠️ Controle do desmatamento"]},
       "geografia": ["🌍 Região Norte", "🌍 Área: ~237.590 km²"],
       "numeros": ["📊 População: ~1,8 milhões (estimado)"],
-      "economia": ["⚡ Agricultura, pecuária e extrativismo"], 
+      "economia": ["⚡ Agricultura, pecuária e extrativismo"],
       "turismo": ["🗺️ Rios e reservas naturais"]
     }
   },
@@ -328,11 +328,11 @@
       "Boa Vista mistura modernidade e proximidade com a natureza."
     ],
     "extras": {
-      "curiosidades": ["Monte Roraima e reservas indígenas são destaques"], 
+      "curiosidades": ["Monte Roraima e reservas indígenas são destaques"],
       "destaques": {"positivos": ["✅ Riqueza natural"], "desafios": ["⚠️ Logística em áreas remotas"]},
       "geografia": ["🌍 Região Norte", "🌍 Área: ~224.300 km²"],
       "numeros": ["📊 População: ~0,6 milhões (estimado)"],
-      "economia": ["⚡ Extrativismo e pecuária"], 
+      "economia": ["⚡ Extrativismo e pecuária"],
       "turismo": ["🗺️ Monte Roraima", "🗺️ Ecoturismo indígena"]
     }
   },
@@ -343,26 +343,26 @@
       "O RS é conhecido por vinhos, chimarrão e belas paisagens."
     ],
     "extras": {
-      "curiosidades": ["Vale dos Vinhedos é famoso"], 
+      "curiosidades": ["Vale dos Vinhedos é famoso"],
       "destaques": {"positivos": ["✅ Economia diversificada"], "desafios": ["⚠️ Eventos climáticos extremos"]},
       "geografia": ["🌍 Região Sul", "🌍 Área: 281.748 km²"],
       "numeros": ["📊 População: ~11,4 milhões (estimado)"],
-      "economia": ["⚡ Agricultura, indústria e vinicultura"], 
+      "economia": ["⚡ Agricultura, indústria e vinicultura"],
       "turismo": ["🗺️ Vale dos Vinhedos", "🗺️ Cânions"]
     }
   },
   "BR-SC": {
-    "mascot": "🦅",
+    "mascot": "🐠",
     "dialogues": [
       "Bem-vindo a Santa Catarina! O estado da magia, onde montanhas encontram praias paradisíacas.",
-      "Florianópolis é conhecida pela qualidade de vida e praias"
+      "Florianópolis é conhecida pela qualidade de vida e praias."
     ],
     "extras": {
-      "curiosidades": ["Maior produtor de porco do Brasil"], 
+      "curiosidades": ["Maior produtor de porco do Brasil"],
       "destaques": {"positivos": ["✅ Alto IDH regional"], "desafios": ["⚠️ Preservação marinha"]},
       "geografia": ["🌍 Região Sul", "🌍 Área: 95.346 km²"],
       "numeros": ["📊 População: ~7,3 milhões (estimado)"],
-      "economia": ["⚡ Indústria e turismo"], 
+      "economia": ["⚡ Indústria e turismo"],
       "turismo": ["🗺️ Florianópolis", "🗺️ Blumenau"]
     }
   },
@@ -373,11 +373,11 @@
       "A cidade de São Paulo é um polo cultural e financeiro de alcance internacional."
     ],
     "extras": {
-      "curiosidades": ["Maior PIB estadual do país"], 
+      "curiosidades": ["Maior PIB estadual do país"],
       "destaques": {"positivos": ["✅ Centro financeiro e educacional"], "desafios": ["⚠️ Desigualdade e mobilidade"]},
       "geografia": ["🌍 Região Sudeste", "🌍 Área: 248.222 km²"],
       "numeros": ["📊 População: ~46 milhões (estimado)"],
-      "economia": ["⚡ Serviços, indústria e tecnologia"], 
+      "economia": ["⚡ Serviços, indústria e tecnologia"],
       "turismo": ["🗺️ Avenida Paulista", "🗺️ Parque Ibirapuera"]
     }
   },
@@ -388,11 +388,11 @@
       "Jalapão é um destino em ascensão para ecoturismo e aventura."
     ],
     "extras": {
-      "curiosidades": ["Jalapão é famoso por fervedouros e dunas"], 
+      "curiosidades": ["Jalapão é famoso por fervedouros e dunas"],
       "destaques": {"positivos": ["✅ Turismo de natureza em crescimento"], "desafios": ["⚠️ Acesso e infraestrutura"]},
       "geografia": ["🌍 Região Norte / transição", "🌍 Área: 277.619 km²"],
       "numeros": ["📊 População: ~1,6 milhão (estimado)"],
-      "economia": ["⚡ Agricultura e turismo"], 
+      "economia": ["⚡ Agricultura e turismo"],
       "turismo": ["🗺️ Jalapão", "🗺️ Palmas"]
     }
   }
